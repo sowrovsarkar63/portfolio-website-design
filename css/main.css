@@ -19,7 +19,9 @@
       opacity: 0; }
     .menu-btn.close .btn-line:nth-child(3) {
       transform: rotate(-45deg) translate(7px, -6px); }
-
+#bg-image{
+  opacity: 0.9;
+}
 .menu {
   position: fixed;
   top: 0;
@@ -40,7 +42,7 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #373737;
+    background: #8b3b05;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
@@ -103,8 +105,8 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/pexels-negative-space-169573.jpg);
-    background: rgba(68, 68, 68, 0.9), url(../img/pexels-negative-space-169573.jpg);
+    background: url(../img/pexels-neo-2653362.jpg);
+    background: rgba(68, 68, 68, 1.9), url(../img/pexels-neo-2653362.jpg);
     background-attachment: fixed;
     background-position: center left;
     background-size: cover; } 
@@ -135,7 +137,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a; }
+  color: #e06715; }
 
 main {
   padding: 4rem;
